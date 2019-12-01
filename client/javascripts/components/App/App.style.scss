@@ -1,0 +1,23 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.example {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__input-box{
+        width: 10rem;
+        margin-top: 3rem; 
+        margin-bottom: 1rem; 
+    }
+
+    &__result{
+        margin-top: 1rem;
+    }
+}
